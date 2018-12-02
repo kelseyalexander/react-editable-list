@@ -1,4 +1,4 @@
-# React Editable List
+# react-editable-list
 An editable list component for ReactJS with validation for required fields and pattern matching. Uses the react-select and react-datepicker components.
 
 - [Properties](#properties)
