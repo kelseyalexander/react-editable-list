@@ -5,7 +5,7 @@ import DatePicker from 'react-datepicker';
 import Select from 'react-select';
 import moment from 'moment';
 
-import './styles/react-editable-list.scss';
+import './scss/react-editable-list.scss';
 import 'react-datepicker/dist/react-datepicker.css';
 
 export default class ReactEditableList extends React.Component {
