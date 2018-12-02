@@ -100,22 +100,16 @@ export default class MyClass extends React.Component {
 
         return(
             <div>
-                <StyledContainer 
-                    className='ItemTableView' 
-                    id='ItemTableView'
-                    title='Item Table'
-                >
-                    <ReactEditableList 
-                        items={this.state.items}
-                        typeSchema={this.state.types}
-                        itemSchema={this.state.item}
-                        onChange={this.handleChange}
-                        onRemove={this.handleRemove}
-                        disabled={disabled}
-                        addDisabled={addDisabled}
-                        removeDisabled={removeDisabled}
-                    />
-                </StyledContainer>
+                <ReactEditableList 
+                    items={this.state.items}
+                    typeSchema={this.state.types}
+                    itemSchema={this.state.item}
+                    onChange={this.handleChange}
+                    onRemove={this.handleRemove}
+                    disabled={disabled}
+                    addDisabled={addDisabled}
+                    removeDisabled={removeDisabled}
+                />
             </div>
         )
     }
