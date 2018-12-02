@@ -5,7 +5,7 @@
   :-ms-input-placeholder      {@content}  
 }
 
-.ItemTable {
+.EditableList {
     @include placeholder {
         color: rgba(0,0,0,0.4) !important;
     }
